@@ -74,7 +74,7 @@ class _MobileHomeState extends State<MobileHome> {
                               spreadRadius: 1)
                         ],
                         image: DecorationImage(
-                            image: AssetImage("images/spotify.jpeg")),
+                            image: AssetImage("images/Spotify.jpeg")),
                         borderRadius: BorderRadius.circular(size.height / 35)),
                   ),
                 ),
@@ -150,7 +150,7 @@ class _MobileHomeState extends State<MobileHome> {
                 ),
                 MenuItems(
                   size: size,
-                  img: "images/instagram.png",
+                  img: "images/Instagram.png",
                   name: "Instagram",
                   onTap: () async{
                     await launchUrl(Uri.parse("https://www.instagram.com/aasshhuutosh/"));
